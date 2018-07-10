@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+// const path = require("path");
 module.exports = {
   context: __dirname,
   entry: __dirname + "/js/index.js",
@@ -27,7 +28,18 @@ module.exports = {
       { test: /\.html$/i, loader: "html-loader" }
     ]
   },
-  devtool: "source-map",
+  devtool: "eval",
+  // devServer: {
+  //   contentBase: __dirname + "/build",
+  //   compress: true,
+  //   port: 9000,
+  //   proxy: {
+  //     "/api": {
+  //       target: "http://localhost:3000",
+  //       secure: false
+  //     }
+  //   }
+  // },
   resolve: {
     extensions: [".html", ".js", ".json", ".css"]
   }

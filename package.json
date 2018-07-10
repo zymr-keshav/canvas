@@ -1,19 +1,19 @@
 {
   "name": "canvas",
   "version": "1.0.0",
-  "description": "This is simple Page which generate image based on initials of the text provided with diffrent background color every time. if click on time button it will print image of \"hour:minute\" in 12 hours format.",
+  "description":
+    "Simple page when a kid press any key than text and the background changes.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack-dev-server --inline --hot",
-    "start": "http-server"
+    "server": "node server",
+    "start": "webpack-dev-server --inline --hot"
   },
   "main": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zymr-keshav/canvas.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["alphabet", "kid"],
+  "author": "Keshav Mohta",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zymr-keshav/canvas/issues"
@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "@babel/preset-env": "^7.0.0-beta.51",
+    "animate.css": "^3.6.1",
     "babel-eslint": "^7.2.3",
     "babel-preset-es2015": "^6.24.1",
     "path": "^0.12.7"

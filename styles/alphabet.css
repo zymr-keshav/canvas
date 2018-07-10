@@ -12,15 +12,18 @@
 
 body {
     font-family: "Open-Sans";
-    background-image: url("../images/start.png");
-    height: 100%;
+    background-image: url("../images/school.png");
 }
 
 .instruction {
     text-align: center;
-    line-height: 1.8em;
-    color: black;
-    background-image: linear-gradient(to right, #3f87a6, #ebf8e1 30%, #f69d3c);
+    color: #0e0101;
+    background-image: linear-gradient(
+        to right,
+        #e6c7c7,
+        #dce4d5 30%,
+        #54c4ca54
+    );
 }
 
 header {
@@ -32,6 +35,10 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
+    transition: background 0.5s ease-in;
+    -webkit-background: background 0.5s ease-in;
+    -moz-transition: color 0.5s ease-in;
+    -o-transition: background 0.5s ease-in;
 }
 
 .board {

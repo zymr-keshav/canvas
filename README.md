@@ -26,9 +26,16 @@ on right side that key name will be appeared in white color with big font size
     `cd canvas`
 
 -   run `npm install`
--   run `npm start webpack`
--   run `json-server --watch bg.json` in another tab to work with API
+-   run `npm server`
+    keep this terminal open ; note that output of this command will be as following
 
-Now open `http://localhost:8080` in browser
+> node server
+> JSON Server is running
+
+open new terminal and
+
+*   run `npm start`
+
+Now open `http://localhost:8080` in the chrome browser
 
 Note: all images are in _.jpg_ format only.

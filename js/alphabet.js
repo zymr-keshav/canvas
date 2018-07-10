@@ -1,4 +1,4 @@
-const BASE_URL = `http://localhost:3000`; // run `json-server --watch db.json` before this
+const BASE_URL = `http://localhost:3000/api`;
 const IMAGE_DIR = `/images/background`;
 
 const headers = new Headers({
