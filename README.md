@@ -26,8 +26,9 @@ on right side that key name will be appeared in white color with big font size
     `cd canvas`
 
 -   run `npm install`
--   run `npm server`
-    keep this terminal open ; note that output of this command will be as following
+-   run `npm run server`
+
+keep this terminal open ; note that output of this command will be as following
 
 > node server
 > JSON Server is running
