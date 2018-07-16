@@ -30,6 +30,6 @@ export const setBackgroundImage = letter => {
       document.body.querySelector("header").style.backgroundImage = bgURL;
     })
     .catch(e => {
-      document.body.style.background = `color`;
+      document.body.style.background = ``;
     });
 };

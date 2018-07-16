@@ -71,7 +71,6 @@
         "click",
         event => {
             const target = event.target;
-            console.log("target", event);
             /* eslint-disabled */
             switch (target.id) {
                 case "text": {
@@ -90,7 +89,7 @@
                                 trimmedText.charAt(1)
                             ];
                         }
-                        console.log("initials", initials);
+                        // console.log("initials", initials);
                         drawImage(...initials).then(loadImage);
                     }
                     break;
